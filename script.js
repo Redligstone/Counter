@@ -1,6 +1,7 @@
 const actions = Array.from(document.querySelectorAll("[data-action]"));
 console.log(actions);
 // hei, i am a new counter
+// no I AM
 
 // if counter !== 0, counter == counter's saved value
 var counter = localStorage.getItem("counter") || 0;
